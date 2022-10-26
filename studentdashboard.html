@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student homepage</title>
+    <link rel="stylesheet" href="style/stunav.css">
+</head>
+<style>
+    #container {
+        width: 1100px;
+        display: flex;
+        margin: auto;
+        /* border: 1px solid ; */
+        margin-top: 40px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+    .same {
+        /* border: 1px solid; */
+        display: flex;
+        gap: 30px;
+        padding: 20px;
+        box-shadow: rgba(143, 143, 143, 0.2) 0px 2px 8px 0px;
+        border-radius: 10px;
+        width: 1060px;
+    }
+
+    .same:hover {
+        background-color: rgb(244, 244, 244);
+    }
+
+    .same>div:first-child {
+        /* border: 1px solid; */
+        /* padding: 10px; */
+        width: 120px;
+        padding-top: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 18px;
+        line-height: 10px;
+        text-align: center;
+        /* margin: ; */
+        background-color: #6366f1;
+        color: white;
+    }
+
+    span {
+        font-weight: 500;
+    }
+
+    #h2 {
+        font-size: 25px;
+        font-weight: 500;
+        color: #6366f1;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    #navbarsecond{
+        width: 1500px;
+        height: 70px;
+        gap: 400px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+    }
+
+    #navbarsecond>div:last-child{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    button{
+        background-color: #1f2937;
+        color: white;
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        /* font-size: bold; */
+        border: none;
+        border-radius: 5px;
+    }
+</style>
+
+<body>
+    <div id="navbar">
+        <!-- <div><img src="https://www.masaischool.com/img/navbar/logo.svg" alt=""></div>
+        <div id="Lectures">Lectures</div>
+        <div id="Assignments">Assignments</div>
+        <div>Quizzes</div>
+        <div>Tickets</div>
+        <div>Discussions</div>
+        <div>Notifications</div>
+        <div>Electives</div>
+        <div>My acount</div> -->
+    </div>
+
+    <div id="navbarsecond">
+        <div style="font-size: 20px; font-weight: 500">Today's Schedule</div>
+        <div>
+            <div><button>BOOKMARKS</button></div>
+            <div><button>REFER & EARN</button></div>
+        </div>
+    </div>
+
+
+    <!-- <div><h1>Welcome to masai Plz for lecture and assignment click in navbar</h1></div> -->
+    <div id="container">
+        <div id="main">
+            <a href="https://course.masaischool.com/lectures/32733">
+                <div class="same">
+                    <div>09.00 AM <p>Lecture</p>
+                    </div>
+                    <div>
+                        <div id="h2">Scrum 17-08-2022</div id="h2">
+                        <p><span>Vijeetha Venkat</span> Starting at <span>09:00 AM</span></p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://course.masaischool.com/assignments/14404">
+                <div class="same">
+                    <div style="background-color: #d946ef;">09.30 AM <p>Assignment</p>
+                    </div>
+                    <div>
+                        <div id="h2">DSA Contest (Sprint 4)</div id="h2">
+                        <p><span>Ankush </span> Starting at <span>9.30 AM</span></p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://course.masaischool.com/lectures/30638">
+                <div class="same">
+                    <div>11.45 AM<p>Lecture</p>
+                    </div>
+                    <div>
+                        <div id="h2">PS 301 - Skillathon</div id="h2">
+                        <p><span>Sameeksha</span> Starting at <span>11.45 AM</span></p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://course.masaischool.com/lectures/33656">
+                <div class="same">
+                    <div>03.00 PM<p>Lecture</p>
+                    </div>
+                    <div>
+                        <div id="h2">OOPS</div id="h2">
+                        <p><span>Swanand</span> Starting at <span>3.00 AM</span></p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://course.masaischool.com/lectures/33571">
+                <div class="same">
+                    <div>08.00 PM<p>Lecture</p>
+                    </div>
+                    <div>
+                        <div id="h2">IA Stand up (Coding)</div id="h2">
+                        <p><span>Aatif Hussain</span> Starting at <span>8.00 PM</span></p>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+
+<script src="./script/studashboard.js" type="module"></script>

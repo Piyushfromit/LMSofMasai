@@ -1,0 +1,43 @@
+#assign{
+    width: 1600px;
+    border-bottom: 0.5px solid lightgray ;
+    padding: 20px;
+    margin: auto;
+    padding-left: 70px  ;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+#allbutton{
+    width: 1000px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 40px;
+    /* padding: 30px; */
+}
+
+table, td, th{
+    border: 1px solid;
+    margin: auto;
+    margin-top: 30px;
+    width: 1000px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: rgb(211, 236, 245);
+    text-align: center;
+    
+}
+
+th{
+    height: 50px;
+    color: rgb(255, 55, 55);
+}
+
+
+#allbutton>button{
+    padding: 10px;
+    background-color: antiquewhite;
+    border: 0.5px solid lightgray;
+}

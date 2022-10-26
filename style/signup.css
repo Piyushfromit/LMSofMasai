@@ -1,0 +1,56 @@
+body{
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container{
+    width: 440px;
+    height: 530px;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+    background-color: rgb(250, 255, 255);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+input{
+    width: 350px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+label{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    margin-bottom: -20px;
+}
+#signin{
+    margin-top: 20px;
+    width: 360px;
+    background-color:#2563eb;
+    color: white;
+    /* margin-top: 30px; */
+}
+
+body>div:first-child{
+    /* width: 100px; */
+    text-align: center;
+    margin-top: 50px;
+}
+body>div:nth-child(2){
+    text-align: center;
+}
+img{
+    margin-top: -10px;
+    width: 150px;
+    height: 50px;
+}
+
+#select{
+    margin-top: -20px;
+    width: 360px;
+    height: 30px;
+}
+
+

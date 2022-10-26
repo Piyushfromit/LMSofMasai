@@ -1,0 +1,44 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbar{
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: -8px;
+    background-color: white;
+    border-bottom: 0.5px solid rgb(212, 212, 212);
+}
+
+#navbar{
+    cursor: pointer;
+}
+
+#navbar>div:last-child{
+    /* padding-right: 30px; */
+    margin-left: 130px;
+}
+
+hr{
+    border: 1px solid lightgray
+}
+
+img{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+#acount{
+    padding-right: 40px;
+}
+
+#select{
+    width: 150px;
+    text-align: center;
+    height: 30px;
+    border: 0;
+}
+
